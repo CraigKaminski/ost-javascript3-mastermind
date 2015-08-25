@@ -1,0 +1,83 @@
+body {
+  background-color: lightgrey;
+}
+
+#descriptionAndInput {
+  margin-left: 250px;
+  width: 350px;
+}
+
+#gameBoard {
+  float: left;
+  width: 240px;
+}
+
+#gameBoard div {
+  display: flex;
+  display: -webkit-flex;
+}
+
+.code > div {
+  border: 2px solid;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 2px;
+  padding: 0px;
+}
+
+.yellowPeg {
+  color: yellow;
+  background-color: yellow;
+}
+
+.brownPeg {
+  color: brown;
+  background-color: brown;
+}
+
+.redPeg {
+  color: red;
+  background-color: red;
+}
+
+.purplePeg {
+  color: purple;
+  background-color: purple;
+}
+
+.bluePeg {
+  color: blue;
+  background-color: blue;
+}
+
+.greenPeg {
+  color: green;
+  background-color: green;
+}
+
+
+.key {
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  width: 48px;
+}
+
+.key > div {
+  border: 2px solid;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  margin: 2px;
+  padding: 0px;
+}
+
+.blackKey {
+  color: black;
+  background-color: black;
+}
+
+.whiteKey {
+  color: black;
+  background-color: white;
+}
